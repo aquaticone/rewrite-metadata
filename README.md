@@ -1,7 +1,7 @@
-# swap-files
+# rewrite-metdata
 
-Tool for swapping the filenames of two files.
+Tool for rewriting image URI in NFT metadata.
 
 ## Usage
 
-1. `yarn swap ../path/to/file/1.png ../path/to/file/2.png`
+1. `yarn rewrite ../path/to/metdata --uriPrefix ipfs://newIpfsCidOfImagesDirectory`
