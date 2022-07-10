@@ -1,7 +1,7 @@
 {
   "name": "rewrite-metdata",
   "version": "0.1.0",
-  "description": "Tool for rewriting imageURI in NFT metadata files",
+  "description": "Tool for rewriting image URI in NFT metadata",
   "main": "./index.cjs",
   "author": "aquatic <aquaticone@protonmail.com>",
   "license": "MIT",
