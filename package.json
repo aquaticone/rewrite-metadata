@@ -1,0 +1,30 @@
+{
+  "name": "rewrite-metdata",
+  "version": "0.1.0",
+  "description": "Tool for rewriting imageURI in NFT metadata files",
+  "main": "./index.cjs",
+  "author": "aquatic <aquaticone@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "engines" : { 
+    "npm" : ">=8.0.0",
+    "node" : ">=16.0.0"
+  },
+  "scripts": {
+    "rewrite": "node ./index.cjs",
+    "lint": "eslint ./index.cjs --fix",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
